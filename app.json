@@ -1,8 +1,8 @@
 {
   "name": "My App",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "description": "My Artificial Itelligence news blog.",
   "image": "heroku/python",
-  "repository": "https://github.com/MakwanaVihas/flights.git",
+  "repository": "https://github.com/MakwanaVihas/myaiblog.git",
   "keywords": ["python", "django" ],
   "addons": [ "heroku-postgresql" ],
   "env": {
