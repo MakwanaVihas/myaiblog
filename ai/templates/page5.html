@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/css1.css">
+	<style>
+    img.chinese_ai:hover
+    {
+     	/*transform: translateY(10px);*/
+    	transform: scale(1.5);
+        
+        /*transform: translate(0px, 100px);*/
+    }
+    img.chinese_ai{
+    	transition: transform 3s;
+    }
+	p
+	{
+			font-family: Chilanka;
+			display: inline-block;
+			color: black;
+			text-align: left;
+			display: block;
+			margin-bottom: : 20px;
+			font-size: 30px;
+			margin-left: 20px;
+			margin-right: 20px;
+
+			/*border-radius: 25px;*/
+	   }
+
+	div.para
+	{
+			background-color: white;
+			box-shadow: 0px 0px 10px black;
+			/*border-radius: 25px;*/
+		    text-align: center;
+	}
+	</style>
+	<script>
+		document.addEventListener("DOMContentLoaded",()=>{
+			child=document.querySelector(".para");
+			child.style.marginLeft=(window.innerWidth/7).toString()+"px";
+			child.style.marginRight=(window.innerWidth/7).toString()+"px";
+			// for(let i=0;i<child.length;i++){
+			// child[i].style.marginLeft=(window.innerWidth/7).toString()+"px";
+			// child[i].style.marginRight=(window.innerWidth/7).toString()+"px";
+		}
+		)
+	</script>
+	<title></title>
+</head>
+<body>
+	
+
+   <div class="header">
+      <a href="{%url 'index'%}">
+      <img src="static/ai1.jpeg" height="100px" width="170px" style="margin: 10px;vertical-align: middle; border-radius: 10px;border-color: black;"></a>
+      <h1 style="vertical-align: middle;">The A.I. Blog</h1>
+    </div>
+	<div class="para">
+		<p><center><h1 style="font-family: Purisa">IIT Delhi and U.S. tech giant IBM collabs for research in A.I.</h1></center></p>
+        <p>
+        	<strong>NEW DELHI</strong>: IIT Delhi and IBM have entered into a multi-year research collaboration on artificial intelligence.
+        </p>
+        <p>	
+           The collaboration will enable the duo to develop AI solutions for organisations across all sector. AI solutions will be trained to comprehend complex questions using natural language techniques and derive new insights using domain knowledge.
+       </p>
+       <div align="center">
+	<img src="static/iit.jpg" height="300px" width="600px"><br><h2 style="font-size: 12px;width: 600px;">IBM researchers will partner with students and professors from the IIT Delhi to conduct joint research in AI systems focusing on some key traits like reasoning, comprehension and inferencing.</h2></div>
+       <p>
+       	IBM researchers will partner with students and professors from the IIT Delhi to conduct joint research in AI systems focusing on some key traits like reasoning, comprehension and inferencing.
+       </p>
+       <p>
+       	“While working with AI systems, organisations require explicit reasoning and comprehension to reach a particular conclusion. We believe advancement in AI can tackle such problems,” said Michael Karasick, Vice President, Global Labs, IBM Research.
+       </p>
+       <p>
+       	V. Ramgopal Rao, Director, IIT Delhi, said “India has immense talent to accelerate innovation in AI and related technologies. We are happy to collaborate with IBM Research scientists and provide opportunities to our students and faculty colleagues to work on some of the complex problems around AI and apply the solutions to real-world scenarios,”
+       </p>
+       <p>
+       	Source=><a href="https://economictimes.indiatimes.com">Economictimes</a>
+       </p>
+       <br><br><br>
+
+	</div></body></html>

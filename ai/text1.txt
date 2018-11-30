@@ -1,0 +1,9 @@
+Google's new Quantum processor-Bristlecone
+
+The goal of the Google Quantum AI lab is to build a quantum computer that can be used to solve real-world problems. Their strategy is to explore near-term applications using systems that are forward compatible to a large-scale universal error-corrected quantum computer. In order for a quantum processor to be able to run algorithms beyond the scope of classical simulations, it requires not only a large number of qubits. Crucially, the processor must also have low error rates on readout and logical operations, such as single and two-qubit gates.
+
+On March 5,2018, they presented Bristlecone,at the annual American Physical Society meeting in Los Angeles. The purpose of this gate-based superconducting system is to provide a testbed for research into system error rates and scalability of our qubit technology, as well as applications in quantum simulation, optimization, and machine learning.
+
+The guiding design principle for this device is to preserve the underlying physics of our previous 9-qubit linear array technology, which demonstrated low error rates for readout (1%), single-qubit gates (0.1%) and most importantly two-qubit gates (0.6%) as our best result. This device uses the same scheme for coupling, control, and readout, but is scaled to a square array of 72 qubits. They chose a device of this size to be able to demonstrate quantum supremacy in the future, investigate first and second order error-correction using the surface code, and to facilitate quantum algorithm development on actual hardware. 
+
+ai.google

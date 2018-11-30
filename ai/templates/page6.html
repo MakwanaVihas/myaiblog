@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/css1.css">
+	<style>
+    img.chinese_ai:hover
+    {
+     	/*transform: translateY(10px);*/
+    	transform: scale(1.5);
+        
+        /*transform: translate(0px, 100px);*/
+    }
+    img.chinese_ai{
+    	transition: transform 3s;
+    }
+	p
+	{
+			font-family: Chilanka;
+			display: inline-block;
+			color: black;
+			text-align: left;
+			display: block;
+			margin-bottom: : 20px;
+			font-size: 30px;
+			margin-left: 20px;
+			margin-right: 20px;
+
+			/*border-radius: 25px;*/
+	   }
+
+	div.para
+	{
+			background-color: white;
+			box-shadow: 0px 0px 10px black;
+			/*border-radius: 25px;*/
+		    text-align: center;
+	}
+	</style>
+	<script>
+		document.addEventListener("DOMContentLoaded",()=>{
+			child=document.querySelector(".para");
+			child.style.marginLeft=(window.innerWidth/7).toString()+"px";
+			child.style.marginRight=(window.innerWidth/7).toString()+"px";
+			// for(let i=0;i<child.length;i++){
+			// child[i].style.marginLeft=(window.innerWidth/7).toString()+"px";
+			// child[i].style.marginRight=(window.innerWidth/7).toString()+"px";
+		}
+		)
+	</script>
+	<title></title>
+</head>
+<body>
+	
+
+   <div class="header">
+      <a href="{%url 'index'%}">
+      <img src="static/ai1.jpeg" height="100px" width="170px" style="margin: 10px;vertical-align: middle; border-radius: 10px;border-color: black;"></a>
+      <h1 style="vertical-align: middle;">The A.I. Blog</h1>
+    </div>
+	<div class="para">
+		<p><center><h1 style="font-family: Purisa">Fight Against Cancer: How AI Will Revolutionize Healthcare</h1></center></p>
+		<p>It might seem unfairly flattering to call a disease as devastating as cancer ‘intelligent’, but recognizing the intellect of the disease might help us beat it.</p>
+		<p>
+			Simone Song, a senior partner at venture capital firm Ori Healthcare, tells Fortune’s Global Tech Forum in Guangzhou that she invests primarily in biotech firms dedicated to tackling cancer, particularly enterprises with an AI-focus.
+		</p>
+		<p>
+			“When you ask me why AI?” Song says, “It’s because cancer itself is an AI cell. It’s complex. It’s difficult.” It’s a fascinating characterization and one which Song attributes to biologist Robert Weinberg, who published a paper in 2011 detailing the intelligence of cancer and dubbing it the ‘next generation cell’.
+		</p><div align="center">
+		<img src="static/healthcare.jpg" height="300px" width="650px"><br><h2 style="font-size: 12px;width: 600px;">AI is advancing at an extreme speed especially in field of healthcare.</h2></div>
+		<p>
+			“When we look at it today we call it an AI cell, because it grows faster, it moves faster, it changes faster, and it hides well so normal treatment is not going to be enough to combat cancer.”
+		</p>
+		<p>Cancer rates are exploding in China, mostly due to a combination of intense air pollution and a rapidly ageing population. In 2012, lung cancer rates had risen 306% from 1973, just before China began heavy industrialization.
+		</p>
+		<p>
+			This is having a huge impact on China’s radiology departments. Wang Rui, vice president at Huiying Medical Technology, which operates a medical imaging platform, says that the number of practicing radiologists is increasing 3% a year in China, but the volume of scans that need to be analysed is surging 50% annually.
+		</p>
+		<p>
+			Applying AI to image analysis is just one way the technology could revolutionize healthcare. “Traditionally it would take 10 to 30 minutes for a radiologist to assess a CT scan when screening for cancerous nodules. With AI it could take seconds,” Rui says.
+		</p>
+		<p>
+			“Now we can use AI to test known cancer patients,” Song says. “In the future we hope to have screened enough people to uncover new biomarkers that can help us predict cancer before it develops.”
+		</p>
+		<p>
+			Source=>&nbsp&nbsp<a href="http://fortune.com">Fortune</a><br>
+			Article on wikipedia:&nbsp&nbsp<a href="https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare#Google">AI for healthcare</a>
+
+		</p><br><br><br><br>
+
+	</div></body></html>

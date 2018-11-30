@@ -1,0 +1,16 @@
+Advancing Human Life with Quantum Computing.
+Quantum computing – that sci-fi stuff that turns entangled molecules into computing digits – is drawing ever closer to reality. In September, leading companies including Alphabet, IBM, JPMorgan Chase and academic experts convened at a meeting sponsored by the White House Office of Science and Technology Policy.
+
+Quantum may be capable of delivering results exponentially faster than even the fastest of today’s systems. “While a traditional computer has to sequentially explore the potential solutions to a mathematical problem, a quantum system is able to look at every potential solution simultaneously and generate answers—not just the single best but nearly ten thousand close alternatives as well—in less than a second,” explains Arthur Herman in Forbes.
+
+According to Computer Scientists a Qunatum Computer can exceptionally beat today's classic computers in terms processing,machine learning,A.I. and in all terms.
+
+Quantum is advancing beyond the dreaming stage. Just recently, ar per reported by IEEE Spectrum’s Mark Harris, Ford Motor Company “quietly signed a $100,000 contract with NASA’s Quantum Artificial Intelligence Laboratory (QuAIL) to use the space agency’s quantum computer in its autonomous car research,”. There are a number of potential applications slated for development, including route optimization for diesel commercial truck fleets. “The company would initially be working on a generalization of the classic traveling salesman problem—how to plot the most efficient route around a territory consisting of multiple cities,” says Harris. Today's computers would be too slow to analyze and map out all the potential routes.
+
+Other auto manufacturers, including Volkswagen, have worked with quantum computing in an effort to “optimize routes for 10,000 taxis in notoriously traffic-clogged Beijing. The researchers concluded that quantum annealing would work for time-critical tasks like traffic optimization. (Quantum annealers deliver results in a matter of milliseconds). Volkswagen is now using quantum computing to improve reinforcement learning techniques for software agents to learn about interacting with their environment, for example in automated parking.”
+
+As per a recent report by Boston Consulting Group agrees that quantum computing is near the point in which it may be available. Use cases include “applications in such fields as search, cryptography, and machine learning,” state Massimo Russo, Anant Thaker, and Suhare Adam, all with BCG. “We expect quantum computing to develop toward maturity over three generations spanning the next 25 years,” they predict. “Companies could be using early-generation machines to address practical business and R&D needs much sooner.”
+
+For example, they illustrate, “one application for this significant speed advantage with substantial near-term market potential is in pharmaceutical and chemical R&D: simulating the interaction among molecules as they grow in size, since they exhibit exponential growth in solution complexity similar to prime factorization of large numbers.”
+
+RTInsights.com

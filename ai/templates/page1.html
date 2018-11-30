@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/css1.css">
+	<style>
+    img.chinese_ai:hover
+    {
+    	transform: scale(1.5);    }
+    img.chinese_ai{
+    	transition: transform 3s;
+    }
+	p
+	{
+			font-family: Chilanka;
+			display: inline-block;
+			color: black;
+			text-align: left;
+			display: block;
+			margin-bottom: : 20px;
+			font-size: 30px;
+			margin-left: 20px;
+			margin-right: 20px;
+
+			/*border-radius: 25px;*/
+	   }
+
+	div.para
+	{
+			background-color: white;
+			box-shadow: 0px 0px 10px black;
+			/*border-radius: 25px;*/
+		    text-align: center;
+		    position: absolute;
+	}
+	</style>
+	<script>
+		document.addEventListener("DOMContentLoaded",()=>{
+			child=document.querySelector(".para");
+			child.style.marginLeft=(window.innerWidth/7).toString()+"px";
+			child.style.marginRight=(window.innerWidth/7).toString()+"px";
+		}
+		)
+	</script>
+	<title></title>
+</head>
+<body>
+	
+
+   <div class="header">
+      <a href="{%url 'index'%}">
+      <img src="static/ai1.jpeg" height="100px" width="170px" style="margin: 10px;vertical-align: middle; border-radius: 10px;border-color: black;"></a>
+      <h1 style="vertical-align: middle;">The A.I. Blog</h1>
+    </div>
+	<div class="para">
+	<p><center><h1 style="font-family: Purisa">Meet Google's new Quantum processor-Bristlecone</h1></center></p>
+		<p>The goal of the <a href="https://ai.google">Google Quantum AI lab</a> was to build a quantum computer that can be used to solve real-world problems. So here is "Bristlecone". Their strategy is to explore near-term applications using systems that are forward compatible to a large-scale universal error-corrected quantum computer. In order for a quantum processor to be able to run algorithms beyond the scope of classical simulations, it requires not only a large number of qubits. Crucially, the processor must also have low error rates on readout and logical operations, such as single and two-qubit gates.
+      </p>
+      <div>
+      	<img src="static/AI1.jpg"><br><h2 style="font-size: 10px;">Bristlecone is Google’s newest quantum processor (left). On the right is a cartoon of the device: each “X” represents a qubit, with nearest neighbor connectivity.</h2>
+      </div>
+      <p>
+      	On March 5,2018, they presented Bristlecone,at the annual <a href="https://www.aps.org/">American Physical Society</a> meeting in Los Angeles. The purpose of this gate-based superconducting system is to provide a testbed for research into system error rates and scalability of our qubit technology, as well as applications in quantum simulation, optimization, and machine learning.
+      </p>
+      <p>
+      	The guiding design principle for this device is to preserve the underlying physics of our previous 9-qubit linear array technology, which demonstrated low error rates for readout (1%), single-qubit gates (0.1%) and most importantly two-qubit gates (0.6%) as our best result. This device uses the same scheme for coupling, control, and readout, but is scaled to a square array of 72 qubits. They chose a device of this size to be able to demonstrate quantum supremacy in the future, investigate first and second order error-correction using the surface code, and to facilitate quantum algorithm development on actual hardware. 
+      </p>
+      <div><img src="static/AI12.jpg"><h2 style="font-size: 10px;">A Bristlecone chip being installed by Research Scientist Marissa Giustina at the Quantum AI Lab in Santa Barbara</h2></div>
+      <p>
+      	Before investigating specific applications, it is important to quantify a quantum processor’s capabilities. Google's A.I. team has developed a benchmarking tool for exactly this task. They can assign a single system error by applying random quantum circuits to the device and checking the sampled output distribution against a classical simulation. If a quantum processor can be operated with low enough error, it would be able to outperform a classical supercomputer on a well-defined computer science problem, an achievement known as quantum supremacy. These random circuits must be large in both number of qubits as well as computational length (depth). Although no one has achieved this goal yet, we calculate quantum supremacy can be comfortably demonstrated with 49 qubits, a circuit depth exceeding 40, and a two-qubit error below 0.5%. Team believes that the experimental demonstration of a quantum processor outperforming a supercomputer would be a watershed moment, and remains one of their key objectives.
+      </p>
+      <p><strong>Conclusion:</strong>Many reaserch organizations and big tech-giants are investing a huge amount of money in field of quantum computing.
+           We are advancing towards a "Quantum Revolution" which might be the biggest revolution in history of mankind!!!.
+
+      </p>
+       <p align="center">Source:=><strong><a href="https://ai.google">Google AI</a></strong><br></p>
+    
+		
+
+</div>
+</body>
+</html>

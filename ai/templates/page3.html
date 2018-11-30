@@ -1,0 +1,102 @@
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/css1.css">
+	<style>
+    img.chinese_ai:hover
+    {
+     	/*transform: translateY(10px);*/
+    	transform: scale(1.5);
+        
+        /*transform: translate(0px, 100px);*/
+    }
+    img.chinese_ai{
+    	transition: transform 3s;
+    }
+	p
+	{
+			font-family: Chilanka;
+			display: inline-block;
+			color: black;
+			text-align: left;
+			display: block;
+			margin-bottom: : 20px;
+			font-size: 30px;
+			margin-left: 20px;
+			margin-right: 20px;
+
+			/*border-radius: 25px;*/
+	   }
+
+	div.para
+	{
+			background-color: white;
+			box-shadow: 0px 0px 10px black;
+			/*border-radius: 25px;*/
+		    text-align: center;
+	}
+	</style>
+	<script>
+		document.addEventListener("DOMContentLoaded",()=>{
+			child=document.querySelector(".para");
+			img=document.querySelector(".elon");
+			child.style.marginLeft=(window.innerWidth/10).toString()+"px";
+			child.style.marginRight=(window.innerWidth/10).toString()+"px";
+			img.style.width=(window.innerWidth/2.5).toString()+"px";
+			img.style.height=(window.innerWidth/4).toString()+"px";
+			window.onresize=()=>{
+			img.style.width=(window.innerWidth/2.5).toString()+"px";
+			img.style.height=(window.innerWidth/4).toString()+"px";
+		}
+			// for(let i=0;i<child.length;i++){
+			// child[i].style.marginLeft=(window.innerWidth/7).toString()+"px";
+			// child[i].style.marginRight=(window.innerWidth/7).toString()+"px";
+		}
+		)
+	</script>
+	<title></title>
+</head>
+<body>
+	
+
+   <div class="header">
+      <a href="{%url 'index'%}">
+      <img src="static/ai1.jpeg" height="100px" width="170px" style="margin: 10px;vertical-align: middle; border-radius: 10px;border-color: black;"></a>
+      <h1 style="vertical-align: middle;">The A.I. Blog</h1>
+    </div>
+	<div class="para">
+		<p><center><h1 style="font-family: Purisa;font-weight: bolder; ">"To avoid becoming like monkeys, humans must merge with machines",says Elon Musk</h1></center></p>
+		<div><img src="static/elonmusk.jpg" class="elon"><h2 style="font-size: 12px;font-weight: lighter;">Tesla and SpaceX CEO Elon Musk states that autonomous machines are more dangerous to the world than North Korea and could unleash “weapons of terror.”</h2></div>
+		<p>Elon Musk has become one of the most vocal critics of artificial intelligence in recnt years, issuing numerous warnings about the threat that powerful machines pose to the future of mankind.
+		</p>
+		<p>
+			Now he has unveiled a potential way for the meager human brain to compete with a superior force that Musk has compared to "an immortal dictator".
+		</p>
+		<p>
+			During an interview with Axios co-founders Jim VandeHei and Mike Allen that aired Sunday on HBO, Elon said it is essential for humans to merge with artificial intelligence, creating a long-term relationship for "equalization of intelligence".
+		</p>
+		<p>
+			“Essentially, how do we ensure that the future constitutes the sum of the will of humanity? And so, if we have billions of people with the high-bandwidth link to the AI extension of themselves, it would actually make everyone hyper-smart.” Musk said.
+		</p>
+		<p>
+			Musk said that humanity is lagging behind, behaving “like children in a playground” who aren’t paying attention to the looming threats around us. “We worry more about . . . what name somebody called someone else . . . than whether AI will destroy humanity,” he said. “That’s insane.”
+		</p>
+		<p>Musk has said that autonomous machines are more dangerous to the world than North Korea and could unleash “weapons of terror.” He has compared the adoption of AI to “summoning the devil.” He also believes artificial intelligence could help trigger the next world war and has argued that super-intelligent machines could come to dominate the world. In the documentary “Do you Trust This Computer,” which debuted in April, Musk warned that super computers could become “an immortal dictator from which we would never escape.”			
+		</p>
+		<p>Documentry's Trailer:<a href="https://t.co/WehHcZX7Qe">Do you trust this Computer??</a></p>
+		<div align="center" style="font-family:Chilanka;"><b>Here's his interview with HBO:</b><br>
+			 <iframe width="500" height="250"  src="https://www.youtube.com/embed/y6GEugjulPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-bottom: 20px;margin-top: 40px"></iframe>
+		</div>
+      </div></body></html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/css1.css">
+	<style>
+    img.chinese_ai:hover
+    {
+    	transform: scale(1.5);    }
+    img.chinese_ai{
+    	transition: transform 3s;
+    }
+	p
+	{
+			font-family: Chilanka;
+			display: inline-block;
+			color: black;
+			text-align: left;
+			display: block;
+			margin-bottom: : 20px;
+			font-size: 30px;
+			margin-left: 20px;
+			margin-right: 20px;
+
+			/*border-radius: 25px;*/
+	   }
+
+	div.para
+	{
+			background-color: white;
+			box-shadow: 0px 0px 10px black;
+			/*border-radius: 25px;*/
+		    text-align: center;
+		    position: absolute;
+	}
+	</style>
+	<script>
+		document.addEventListener("DOMContentLoaded",()=>{
+			child=document.querySelector(".para");
+			child.style.marginLeft=(window.innerWidth/7).toString()+"px";
+			child.style.marginRight=(window.innerWidth/7).toString()+"px";
+		}
+		)
+	</script>
+	<title></title>
+</head>
+<body>
+	
+
+   <div class="header">
+      <a href="{%url 'index'%}">
+      <img src="static/ai1.jpeg" height="100px" width="170px" style="margin: 10px;vertical-align: middle; border-radius: 10px;border-color: black;"></a>
+      <h1 style="vertical-align: middle;">The A.I. Blog</h1>
+    </div>
+	<div class="para"><p><center><h1 style="font-family: Purisa;font-weight: bolder; ">
+Want a job in A.I.?There are the leading countries for hiring jobs in A.I.</h1></center></p>
+<p>
+	Artificial Intelligence (A.I.) is a massive industry, with potential in every field from autonomous cars to human resources. According to PwC, A.I. could add up to $15.7 trillion to the global economy by 2030.
+</p>
+<div><img src="static/jobs.jpg"></div>
+<p>Software company UiPath took a look at the job offerings in A.I. worldwide, scanning through 30,000 job listings from 15 industry-leading countries. Including all titles—from software engineer and intelligence researcher to sales engineer and product manager—UiPath found China and the U.S. are leading the way in total number of jobs.</p>
+<p>China ranked number 1 just over 12,000 job listings, followed by the U.S. with 7,000. Other leaders include Japan, the UK, India, Germany, France, Canada, Australia, and Poland.</p>
+<p>
+When sorted by jobs per million of the country’s working age population, however, Japan takes the lead. Israel is number two in density, followed by the U.K. The U.S. is fourth, with 36.3 jobs per million. China is ranked at tenth, with 13.3 jobs per million.</p>
+<p>
+	Unsurprisingly, six of the top 10 cities are in China. They’re joined by Tokyo at third; London at eighth; New York City at ninth; and Bengaluru, India at tenth. San Francisco came in 12th with just under 400 jobs, and Seattle in 15th, with just under 300.
+</p>
+<p>
+	When ranked by the number of jobs per 100,000 people of a city’s population, Santa Clara, Calif. came in first with just over 250. San Jose, San Francisco, and Seattle all made the top ten in A.I.-dense cities. China and the U.S. dominated the list, alongside Munich and London.
+</p>
+<p>
+	Source=><a href="https://www.fortune.com">Fortune</a>
+</p>
+	</div>
+</body></html>
